@@ -1,9 +1,0 @@
-
-p.caption {
-    font-weight: bold;
-}
-
-div.cell_output table {
-    /* make pandas dataframes smaller */
-    font-size: 80%;
-}

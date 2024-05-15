@@ -4,5 +4,5 @@ parts:
   - caption: Page 1
     chapters:
     - file: page-1/about
-    - file: page-1/mod-1-colab
-    - file: page-1/mod-2-sample-metadata
+    - file: page-1/page1-colab
+    - file: page-1/page2-sample_metadata

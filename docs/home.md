@@ -6,7 +6,7 @@
 
 # Home
 
-Welcome to this page XXXX, developed by [AMRnet](https://www.amrnet.org/). 
+Welcome to this page XXXX, developed by [AMRnet](https://www.amrnet.org/).
 
 
 ## Description
@@ -30,11 +30,6 @@ We hope this page will also be useful to a broader audience including anyone who
 ## Learning objectives
 
 At the end o...., you will be able to:
-
-1. ...
-2. ...
-3. ...
-
 
 ## Prerequisites
 
