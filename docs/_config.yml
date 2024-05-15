@@ -12,7 +12,7 @@ execute:
 repository:
   url: https://github.com/amrnet/amrnet-enterobase.github.io
   path_to_book: docs
-  branch: master
+  branch: main
 launch_buttons:
   notebook_interface: "jupyterlab"
   colab_url: "https://colab.research.google.com"
