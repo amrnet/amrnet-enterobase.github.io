@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "amrnet-enterobase",
+			"path": "."
+		},
+		{
+			"name": "docs",
+			"path": "../amrnet-enterobase.github.io/docs"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,5 @@
+jupyter-book==0.15.1
+openpyxl
+rioxarray
+matplotlib
+jsonschema>=3

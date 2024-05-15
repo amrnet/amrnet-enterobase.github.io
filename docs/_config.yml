@@ -1,0 +1,36 @@
+title: AMRnet and Enterobase project
+author: Louise Cerdeira
+copyright: "2024"
+only_build_toc_files: true
+execute:
+  # N.B., any notebooks with ipyleaflet maps or ipywidgets need to be
+  # opened in classic notebook interface, clear widget state,
+  # be run, and then save widget state. Otherwise maps and widgets
+  # won't appear in the rendered book. See also
+  # https://ipywidgets.readthedocs.io/en/latest/embedding.html
+  execute_notebooks: "off"
+repository:
+  url: https://github.com/amrnet/amrnet-enterobase.github.io
+  path_to_book: docs
+  branch: master
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: ""  # disable binderhub, support colab only
+html:
+  use_repository_button : true
+  use_issues_button: true
+  extra_footer: |
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+sphinx:
+  config:
+    myst_enable_extensions:
+    - substitution
+    # don't use dollarmath - https://github.com/executablebooks/jupyter-book/issues/1528
+    # - dollarmath
+    - colon_fence
+    - linkify
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    - //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
+    suppress_warnings: ["mystnb.unknown_mime_type"]

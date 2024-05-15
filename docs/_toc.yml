@@ -1,0 +1,8 @@
+format: jb-book
+root: home
+parts:
+  - caption: Page 1
+    chapters:
+    - file: page-1/about
+    - file: page-1/mod-1-colab
+    - file: page-1/mod-2-sample-metadata
